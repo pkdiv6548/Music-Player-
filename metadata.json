@@ -1,6 +1,0 @@
-{
-  "name": "Aura Music",
-  "description": "Production-grade premium music player Progressive Web App with local audio playback, YouTube API v3 integration, offline IndexedDB library, and high-fidelity player.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
