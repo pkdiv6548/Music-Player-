@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+/* Safe-area insets for mobile standalone PWA */
+.pb-safe {
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+.pt-safe {
+  padding-top: env(safe-area-inset-top, 0px);
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Audiophile Dark Charcoal Theme Tokens */
+:root {
+  --app-bg: #151515;
+  --surface-1: #1B1B1D;
+  --surface-2: #202022;
+  --surface-3: #262628;
+  --surface-hover: #2D2D30;
+  --border: rgba(255, 255, 255, 0.08);
+  --text-primary: #F1EEE7;
+  --text-secondary: #B4B1AB;
+  --text-muted: #77756F;
+  --accent: #C7B5FF;
+  --accent-soft: rgba(199, 181, 255, 0.16);
+}
+
+/* Dark Audiophile Surfaces */
+body {
+  background-color: #151515;
+  color: #F1EEE7;
+}
+
+/* Premium Charcoal Surface Cards */
+.audiophile-card {
+  background-color: #1B1B1D;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.04);
+}
+
+.audiophile-card-elevated {
+  background-color: #202022;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 14px 40px rgba(0, 0, 0, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.05);
+}
+
+/* Circular Audiophile Controls */
+.audiophile-circle-btn {
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  flex-shrink: 0;
+  display: grid;
+  place-items: center;
+}
